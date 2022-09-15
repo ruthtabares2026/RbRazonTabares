@@ -6,23 +6,18 @@ Some people everyday experience inequality and violence such as torture or even 
 Outline:
 
 Webpage 1 (Homepage)
-
 This will introduce people on what the website is about and explain what lgbtq+ is for people who are not very familiar with the term
 
 Webpage 2
-
 this will show the discrimination the lgbtq+ community faces and the changes that need to be made
 
 Webpage 3
-
 this will show the history like how the terms were popularized and the different movements that made differences
 
 Webpage 4
-
 this will give short descriptions of some of the sexual orientations and genders
 
 Webpage 5
-
 this will showcase lgbtq+ representation in the media and it's significance
 
 Wireframe
