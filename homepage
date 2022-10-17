@@ -8,19 +8,27 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <style>
-  h1 {
+  span {
     background: linear-gradient(to left, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  a {
+    vertical-align: bottom;
+  }
   body {
     background-color: #e1efef;
   }
 </style>
 <body>
-<h1>The World Isn't Black And White, It's Rainbow</h1>
-
+<div id=header>
+    <h1>
+      <img src="images/rainbow.ico" height="40px" width="40px">
+      <span>The World Isn't Black And White, It's Rainbow</span>
+      <a href="webpage 2.html"><img src="images/2.ico" width= 40px height= 40px"</a>
+      <a href="webpage 3.html"><img src="images/3.ico" width= 40px height= 40px</a>
+    </h1>
+  </div>
 <p>Being informed about the LGBTQ+ community benefits a lot of people by promoting acceptance and teaching everyone about the diverse people and families around the world. It helps people so they can empathize and connect with people around them and it also encourages people to respect everyone regardless of gender or sexuality.</p>
 
 <p>Everyday, members of the LGBTQ+ community experience inequality and violence such as torture or even execution because people discriminate against them for who they love and for who they are. Sexual orientation and gender identity are aspects of ourselves that should never lead to discrimination and violence towards anyone. Though the opinion and acceptence of homosexuality still remains divided around the world, there have been major changes in laws in other places surrounding the issues of same-sex marriage and the rights of the LGBTQ+ community. This website aims to walk you through this topic as well as show you examples in order for you to get an idea and be informed about the LGBTQ+ community.</p>
