@@ -8,83 +8,204 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <style>
+  #header {
+    top: 10px
+  }
+
+  #box1, #box2, #box3, #box4 {
+    width: 85%;
+    border: 1px dashed black;
+    margin: 30px auto;
+    padding: 15px;
+    overflow: auto;
+  }
+
   #box1 {
-    width:80%;
-    height:50vh;
-    background-color:#d2899a;
-    margin: 20px auto;
-    overflow:auto;
+    background-color: #Eca1a1;
   }
-  #box1 div{
-    width:49%;
-    float:left;
-    text-align: center;
-    border:1px solid black;
-  }
+
   #box2 {
-    width:80%;
-    height:50vh;
-    background-color:#d2899a;
-    margin: 20px auto;
-    overflow:auto;
+    background-color: #Ece5a1;
   }
-  #box2 div{
-    width:49%;
-    height:50vh;
-    float:left;
-    border:1px solid black;
-    text-align: center;
+
+  #box3 {
+    background-color: #A1ecb1;
+  }
+
+  #box4 {
+    background-color: #A6a1ec;
+  }
+
+  #placeholder1 {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
+  #placeholder2 {
+    float: right;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  #content {
+    float: left;
+    width: 130vh;
+    text-align: justify;
+    margin-left: 10px
+  }
+
+  #about {
+    z-index: -2;
+    position: relative;
+    width: 300vh;
+    height: 55vh;
+    background-color: #Da6b82;
+    left: -10px;
+    top: -50px
+  }
+
+  #about h1,
+  #about p {
+    z-index: -1;
+    position: relative;
+    margin: 5vh;
+    margin-left: 15vh;
+    clear: left;
+    width: 50%;
+    top: 150px;
+    color: white;
   }
 </style>
+
 <body>
-  <!-- changes made: changed the formatting -->
-   <div id=header>
-    <h1>
-      <img src="images/rainbow.ico" height="40px" width="40px">
-      <span>The World Isn't Black And White, It's Rainbow</span>
-    </h1>
-  </div>
-  <a href="index.html">homepage</a>
-  <a href="webpage 2.html">webpage 2</a>
-  <center><h1>LGBTQ+ History</h1></center>
-  <div id="box1">
-    <div>
-      <h2> Important icons</h2>
-      <br>
-      Alan Turing is celebrated today for cracking the Enigma code, which is thought to have shortened World War 2 by several years. He was also arrested in 1952 because homosexuality was illegal in Britain during the mid-20th century. In 2017, the government agreed to officially pardon men who were convicted because of their sexuality. The pardoning is now known as the Alan Turing law.
-      <br>
-      Marsha P. Johnson was an African American transgender-rights activist who had a huge impact on the LGBTQ+ community. In June 1969, police raided The Stonewall Inn, a gay bar in New York. Marsha stood up to the police during the raids and led protests and riots, demanding rights for gay people. These riots served as a catalyst for activism and inspired others around the world to fight for equality.
-      <br>
-      Allan Horsfall played a huge role in removing the stigma of criminality from homosexuality. In 1964, he and a group of friends set up the North West Homosexual Law Reform Committee which worked to decriminalize homosexuality. This later transformed into the Campaign for Homosexual Equality, the largest LGBTQ+ organisation there has ever been in the UK, with more than 5,000 members and 120 local groups at it’s largest.
+  <div id=header>
+    <div id=title>
+      <h1>
+        <img id=icon src="images/favicon.ico" height="50px">
+        <span>The World Isn't Black And White, It's Rainbow</span </h1>
     </div>
-    <div>
-      <h2>History in the Philippines</h2>
-      <br>
-      During the Spanish colonization, patriarchy and the machismo concept were introduced to the Philippines, causing feminine men and crossdressers to be looked down upon. The American colonization only reinforced this with Western concepts of gender and sexuality.
-      <br>
-      The first LGBT Pride March in the Philippines was on June 26, 1994 to commemorate the 20th anniversary of the Stonewall Riot. The march was not only the first pride march in the Philippines, but in all of Asia.
-      <br>
-      The Psychological Association of the Philippines (PAP) released the LGBT Non-discrimination Policy Resolution last October 2011. This was in response to overwhelming complaints against a certified psychologist who recommended conversion therapy for children who come out as gay or lesbian. This policy statement affirmed the equality of LGBTQ+ people as well as the right to not be discriminated against based on their sexual orientation and gender identity
+    <div id=links>
+      <a id="one" href="index.html">HOMEPAGE</a>
+      <a id="two" href="webpage 2.html">ISSUES</a>
+      <a id="three" href="webpage 3.html">HISTORY</a>
     </div>
   </div>
-  <div id="box2">
-    <div>
-      <h2>Filipino Myths</h2>
-      <br>
-      The God of Death, Sidapa, lived alone in Mt. Madjaas. He could see the seven moon gods, and he fell in love with them. He showered them with love and gifts like asking birds and mermaids to praise the moons and asked fireflies to light a path to the sky. One of the moon gods, Libulan, came down on the firefly path to meet Sidapa. But Bakunawa, the sea dragon, who was also infatuated with the moons, grew furious. Sidapa saw it attacking and saved Libulan. Afterwards, they reside as husbands on Mt. Madjaas. Some Filipinos use Libulan as a symbol and refer to him as the patron god of homosexuality.
-      <br>
-       Lakapati (or Ikapati) is the goddess of fertility and good harvest. She was also described as an androgynous, intersex, or transgender goddess. According to myth, she was one of the kindest deities, giving man the gift of agriculture. Pre-colonial Filipinos would offer sacrifices to her before planting a new field.
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="about">
+    <h1>LGBTQ+ History</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+  <div>
+    <div id="box1">
+      <img id=placeholder1 src="images/placeholder.png" height="250px" width="250px">
+      <div id="content">
+        <h2> Important icons</h2>
+        Alan Turing is celebrated today for cracking the Enigma code, which is thought to have shortened World War 2 by
+        several years. He was also arrested in 1952 because homosexuality was illegal in Britain during the mid-20th
+        century. In 2017, the government agreed to officially pardon men who were convicted because of their sexuality.
+        The pardoning is now known as the Alan Turing law.
+        <br>
+        Marsha P. Johnson was an African American transgender-rights activist who had a huge impact on the LGBTQ+
+        community. In June 1969, police raided The Stonewall Inn, a gay bar in New York. Marsha stood up to the police
+        during the raids and led protests and riots, demanding rights for gay people. These riots served as a catalyst
+        for
+        activism and inspired others around the world to fight for equality.
+        <br>
+        Allan Horsfall played a huge role in removing the stigma of criminality from homosexuality. In 1964, he and a
+        group of friends set up the North West Homosexual Law Reform Committee which worked to decriminalize
+        homosexuality. This later transformed into the Campaign for Homosexual Equality, the largest LGBTQ+ organisation
+        there has ever been in the UK, with more than 5,000 members and 120 local groups at it’s largest.
+      </div>
     </div>
-    <div>
-      <h2>Popularization of terms</h2>
-      <br>
-      Lesbian is the first term out of all the letters in the acronym LGBTQ to come into existence. For centuries, the word had been associated with  the works of Sappho, an ancient Greek poet from the island of Lesbos who wrote poems about women.
-      <br>
-      In the late 1960s, activists reclaimed a decades-old slur, “gay.” Throughout the 20th century, same-gender attraction and sexual activity was largely outlawed, and this and other slurs that denigrated LGBTQ+ people were common.
-      <br>
-      Transgender: The earliest found usage of the term to is from a 1965 psychology textbook, and it was popularized by activists like Virginia Prince. It replaced other terms that were derogatory to transgender people and became a common term by the 2000s.
+    <div id="box2">
+      <img id=placeholder2 src="images/placeholder.png" height="250px" width="250px">
+      <div id="content">
+        <h2>History in the Philippines</h2>
+        During the Spanish colonization, patriarchy and the machismo concept were introduced to the Philippines, causing
+        feminine men and crossdressers to be looked down upon. The American colonization only reinforced this with
+        Western
+        concepts of gender and sexuality.
+        <br>
+        The first LGBT Pride March in the Philippines was on June 26, 1994 to commemorate the 20th anniversary of the
+        Stonewall Riot. The march was not only the first pride march in the Philippines, but in all of Asia.
+        <br>
+        The Psychological Association of the Philippines (PAP) released the LGBT Non-discrimination Policy Resolution
+        last
+        October 2011. This was in response to overwhelming complaints against a certified psychologist who recommended
+        conversion therapy for children who come out as gay or lesbian. This policy statement affirmed the equality of
+        LGBTQ+ people as well as the right to not be discriminated against based on their sexual orientation and gender
+        identity
+      </div>
+    </div>
+    <div id="box3">
+      <img id=placeholder1 src="images/placeholder.png" height="250px" width="250px">
+      <div id="content">
+        <h2>Filipino Myths</h2>
+        The God of Death, Sidapa, lived alone in Mt. Madjaas. He could see the seven moon gods, and he fell in love with
+        them. He showered them with love and gifts like asking birds and mermaids to praise the moons and asked
+        fireflies
+        to light a path to the sky. One of the moon gods, Libulan, came down on the firefly path to meet Sidapa. But
+        Bakunawa, the sea dragon, who was also infatuated with the moons, grew furious. Sidapa saw it attacking and
+        saved
+        Libulan. Afterwards, they reside as husbands on Mt. Madjaas. Some Filipinos use Libulan as a symbol and refer to
+        him as the patron god of homosexuality.
+        <br>
+        Lakapati (or Ikapati) is the goddess of fertility and good harvest. She was also described as an androgynous,
+        intersex, or transgender goddess. According to myth, she was one of the kindest deities, giving man the gift of
+        agriculture. Pre-colonial Filipinos would offer sacrifices to her before planting a new field.
+      </div>
+    </div>
+    <div id="box4">
+      <img id=placeholder2 src="images/placeholder.png" height="250px" width="250px">
+      <div id="content">
+        <h2>Popularization of terms</h2>
+        Lesbian is the first term out of all the letters in the acronym LGBTQ to come into existence. For centuries, the
+        word had been associated with the works of Sappho, an ancient Greek poet from the island of Lesbos who wrote
+        poems
+        about women.
+        <br>
+        In the late 1960s, activists reclaimed a decades-old slur, “gay.” Throughout the 20th century, same-gender
+        attraction and sexual activity was largely outlawed, and this and other slurs that denigrated LGBTQ+ people were
+        common.
+        <br>
+        Transgender: The earliest found usage of the term to is from a 1965 psychology textbook, and it was popularized
+        by
+        activists like Virginia Prince. It replaced other terms that were derogatory to transgender people and became a
+        common term by the 2000s.
+      </div>
     </div>
   </div>
+  <footer>
+    <p>Made by: Chia Razon and Ruth Tabares</p>
+    <p>References
+    <ul>
+      <li>
+        Blakemore, E. (2021, October 19). From LGBT to LGBTQIA+: The evolving recognition of identity. History.
+        Retrieved September 24, 2022, from
+        https://www.nationalgeographic.com/history/article/from-lgbt-to-lgbtqia-the-evolving-recognition-of-identity
+      </li>
+      <li>
+        12 LGBT icons from history you should know about - CBBC Newsround. (2021, June 6). Retrieved September 24,
+        2022,
+        from https://www.bbc.co.uk/newsround/55276399
+      </li>
+      <li>
+        The History of LGBTQ+ Visibility in the Philippines. (2020, December 30). LoveYourself Inc. Retrieved
+        September
+        24, 2022, from https://loveyourself.ph/the-history-of-lgbtq-visibility-in-the-philippines/
+      </li>
+    </ul>
+    </p>
+  </footer>
 </body>
 
 </html>
