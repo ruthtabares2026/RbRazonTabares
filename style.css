@@ -40,20 +40,24 @@ body {
   top: -15px;
   border-bottom: 1px solid;
 }
+
 #links a{ z-index: 2;
   position: relative;
   left:20px;
   top:40px;
   text-decoration: none;
 }
+
 a#two{
   position:relative;
   left: 50px
 }
+
 a#three{
   position:relative;
   left: 80px
 }
+
 span {
   background: linear-gradient(to left,#e83ba8, #231ff4, #00abc2, #fcc203, #e13737););
   -webkit-background-clip: text;
@@ -63,10 +67,12 @@ span {
 div#header {
   position: fixed;
 }
+
 li {
   font-size: 12px;
 }
-footer {
+
+#footer {
   position:relative;
   clear: left;
   background-color: gray;
@@ -75,10 +81,14 @@ footer {
   height:30vh
 }
 
-footer p, ul{
-  position:relative;
-  bottom:-25px;
-  left:10px;
+#footer td{
+  padding:20px
+}
+  
+#footer p{
+  text-indent:7vh;
+  font-size:12px;
+  text-align:justify;
 }
 
 #icon {
