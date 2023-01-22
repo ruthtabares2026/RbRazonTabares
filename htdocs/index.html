@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="authors" content="Chia Razon and Ruth Tabares">
   <meta name="section" content="9-Rubidium">
-  <meta name="revide" content="10-29-2022">
+  <meta name="revide" content="01-22-2023">
   <title>the world isn't black and white, it's rainbow</title>
   <link rel="icon" href="images/favicon.ico">
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -46,18 +46,34 @@
     margin: auto;
     bottom: 90px
   }
-  </style>
+
+  #socials {
+    z-index: -1;
+    position: relative;
+    clear: left;
+    width: 90%;
+    height: 140px;
+    background-color: lightpink;
+    margin: auto;
+    bottom: 60px
+  }
+</style>
+
 <body>
   <div id=header>
+    <!--this is the header for the whole website-->
     <div id=title>
       <h1>
         <img id=icon src="images/favicon.ico" height="50px">
         <span>The World Isn't Black And White, It's Rainbow</span </h1>
     </div>
     <div id=links>
+      <!--these are all the webpages-->
       <a id="one" href="index.html">HOMEPAGE</a>
       <a id="two" href="webpage 2.html">ISSUES</a>
-      <a id="three" href="webpage 3.html">HISTORY</a>=
+      <a id="three" href="webpage 3.html">HISTORY</a>
+      <a id="four" href="webpage 4.html">TERMS</a>
+      <a id="five" href="webpage 5.html">REPRESENTATION</a>
     </div>
   </div>
   <br>
@@ -65,6 +81,7 @@
   <br>
   <br>
   <div id=content>
+    <!--introduces to people what the goal of our website is-->
     <h1>The World Isn't Black And White, It's Rainbow</h1>
     <p>Being informed about the LGBTQ+ community benefits a lot of people by promoting acceptance and teaching everyone
       about the diverse people and families around the world. It helps people so they can empathize and connect with
@@ -78,40 +95,86 @@
       website aims to walk you through this topic as well as show you examples in order for you to get an idea and be
       informed about the LGBTQ+ community.</p>
   </div>
-  <img id=image src="images/homepage image.jpg" height="350in" width="600in">
+  <video controls autoplay muted loop>
+    <source src="pride parade.mp4" type="video/mp4"/>
+  </video>
   <img id=flag src="images/flag.jpg" height="200in" <br>
   <table id=table style="border:1px solid black">
+    <!--this is the part that contains the information on what the webpage is about-->
     <tr>
-      <td><a href="webpage 2.html"><img src="images/webpage2.png" height="140px" </a></td>
-      <td style="padding:20px">
-        <h2>Issues</h2>This webpage will inform people about the discrimination the LGBTQ+ community faces, the changes
-        that
-        need to be made, and ways they can help out.
+      <td style="border-bottom:1px solid black"><a href="webpage 2.html"><img src="images/webpage2.png" height="140px" </a>
       </td>
-      <td style="border-left: 1px solid black;"><a href="webpage 3.html"><img src="images/webpage3.png" height="140px"
+      <td style="padding:20px; border-bottom:1px solid black">
+        <h2>Issues</h2>This webpage will inform people about the discrimination the LGBTQ+ community faces, the changes that need to be made, and ways they can help out.
+      </td>
+      <td style="border-left: 1px solid black; border-bottom:1px solid black"><a href="webpage 3.html"><img src="images/webpage3.png" height="140px"
+            </a> </td>
+      <td style="padding:20px; border-bottom:1px solid black">
+        <h2>History</h2>This webpage will teach people the history, like how the terms were popularized and the different movements that have made a difference.
+      </td>
+    </tr>
+    <tr>
+      <td style="border-left: 1px solid black;"><a href="webpage 4.html"><img src="images/webpage4.jpg" height="140px"
             </a> </td>
       <td style="padding:20px">
-        <h2>History</h2>This webpage will teach people the history, like how the terms were popularized and the
-        different
-        movements that have made a difference.
+        <h2>Terms</h2>This webpage will give brief descriptions of some of the sexual orientations and gender identities.
+      </td>
+      <td style="border-left: 1px solid black;"><a href="webpage 3.html"><img src="images/Rainbow-Flag.png" height="140px"
+            </a> </td>
+      <td style="padding:20px">
+        <h2>Representation</h2>This will showcase LGBTQ+ representation in the media and why it matters.
+      </td>
+    </tr>
+  </table>
+
+    <table id=socials style="border:1px solid black">
+    <!--this is contains social media sites/webpages that are for or represent the lgbtqia+ community-->
+    <tr>
+      <td id="reddit" style="border-bottom:1px solid black"><a href="https://www.reddit.com/r/lgbt/" target="_blank"><img src="images/reddit.png" height="140px" </a></td>
+      <td style="padding:20px; border-bottom:1px solid black">
+        <h2>Reddit</h2>This subreddit, r/lgbt, contains posts related to or are about the LGBTQIA+ topic.
+      </td>
+      <td id="twitter" style="border-left: 1px solid black; border-bottom:1px solid black"><a href="https://twitter.com/search?q=%23lgbtq&src=typed_query" target="_blank"><img src="images/twitter.jpg" height="140px"
+            </a> </td>
+      <td style="padding:20px; border-bottom:1px solid black">
+        <h2>Twitter</h2>"#lgbtq" which contains tweets about almost anything related to the LGBTQIA+ community.
+      </td>
+      <td id="queer spaces" style="border-left: 1px solid black;"><a href="https://www.queerspaces.com/" target="_blank"><img src="images/queer spaces.png" height="40px"
+            </a> </td>
+      <td style="padding:20px">
+        <h2>Queer Spaces</h2>A platform used for building queer communities.
       </td>
     </tr>
   </table>
 
   <table id=footer width="100%">
+    <!--the footer with references and credits-->
     <tr>
       <td width="20%">Made by: <br><br>Chia Razon and Ruth Tabares<br>from 9-Rubidium</td>
       <td width="40%">
         References for information
-        <p>Blakemore, E. (2021, October 19). From LGBT to LGBTQIA+: The evolving recognition of identity. History. Retrieved September 24, 2022, from https://www.nationalgeographic.com/history/article/from-lgbt-to-lgbtqia-the-evolving-recognition-of-identity</p>   
-        <p>12 LGBT icons from history you should know about - CBBC Newsround. (2021, June 6). Retrieved September 24, 2022, from https://www.bbc.co.uk/newsround/55276399</p>
-        <p>The History of LGBTQ+ Visibility in the Philippines. (2020, December 30). LoveYourself Inc. Retrieved September 24, 2022, from https://loveyourself.ph/the-history-of-lgbtq-visibility-in-the-philippines/</p>
+        <p>Blakemore, E. (2021, October 19). From LGBT to LGBTQIA+: The evolving recognition of identity. History.
+          Retrieved September 24, 2022, from
+          https://www.nationalgeographic.com/history/article/from-lgbt-to-lgbtqia-the-evolving-recognition-of-identity
+        </p>
+        <p>12 LGBT icons from history you should know about - CBBC Newsround. (2021, June 6). Retrieved September 24,
+          2022, from https://www.bbc.co.uk/newsround/55276399</p>
+        <p>The History of LGBTQ+ Visibility in the Philippines. (2020, December 30). LoveYourself Inc. Retrieved
+          September 24, 2022, from https://loveyourself.ph/the-history-of-lgbtq-visibility-in-the-philippines/</p>
       </td>
       <td width="40%">
-        References for images
-        <p>Passionate Reel. (n.d.). Red Fist Png, Transparent Png. KindPNG. https://www.kindpng.com/imgv/ibimimR_red-fist-png-transparent-png/</p>
+        References for images and videos
+        <p>Passionate Reel. (n.d.). Red Fist Png, Transparent Png. KindPNG.
+          https://www.kindpng.com/imgv/ibimimR_red-fist-png-transparent-png/</p>
         <p>Arizona State University. (n.d.). LGBTQIA health issues. https://eoss.asu.edu/health/resources/LGBTQIA</p>
-        <p>Mishra, A. (2021, June 2). LGBT Pride Month 2021: History, Events, Know Everything About LGBT. The Global Coverage. https://theglobalcoverage.com/2021/06/02/lgbt-pride-month-2021-history-events-know-everything-about-lgbt/</p>
+        <p>Mishra, A. (2021, June 2). LGBT Pride Month 2021: History, Events, Know Everything About LGBT. The Global
+          Coverage.
+          https://theglobalcoverage.com/2021/06/02/lgbt-pride-month-2021-history-events-know-everything-about-lgbt/</p>
+        <p>Global News. (2022, June 13). Pride parades bring colour to cities around the world [Video]. YouTube. https://www.youtube.com/watch?v=04lGTYOjL-8</p>
+        <p>Volvo Group. (2022, November 6). LGBTQ+ Pride Flags and What They Stand For. https://www.volvogroup.com/en/news-and-media/news/2021/jun/lgbtq-pride-flags-and-what-they-stand-for.html</p>
+        <p>reddit icon - reddit logo transparent PNG image with transparent background png - Free PNG Images. (n.d.). TopPNG. https://toppng.com/free-image/reddit-icon-reddit-logo-transparent-PNG-free-PNG-Images_166731</p>
+        <p>Vecteezy. (n.d.). social media twitter logo blue isolated vector. https://www.vecteezy.com/free-vector/twitter-logo</p>
+        <p>Spaces for Queer Communities. (n.d.). https://www.queerspaces.com/</p>
       </td>
     </tr>
   </table>
